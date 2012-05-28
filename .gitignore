@@ -1,0 +1,8 @@
+/.settings
+/eclipse
+/.classpath
+/.project
+/tmp/*
+
+# Ignorer tous les fichiers class
+*.class
