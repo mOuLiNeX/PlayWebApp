@@ -2,7 +2,11 @@
 /eclipse
 /.classpath
 /.project
-/tmp/*
+/tmp
+/modules
+/lib
+/test-result
+/logs
 
 # Ignorer tous les fichiers class
 *.class
