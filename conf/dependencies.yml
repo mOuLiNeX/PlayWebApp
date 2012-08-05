@@ -2,3 +2,5 @@
 
 require:
     - play
+    - play -> crud
+    - org.hibernate -> hibernate-search 3.4.2.Final

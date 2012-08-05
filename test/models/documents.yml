@@ -1,0 +1,15 @@
+# you describe your data using the YAML notation here
+# and then load them using Fixtures.load("data.yml")
+
+referentiel.TypeDocument(typeDoc1):
+    code: "TYP1"
+
+Document(doc1):
+    nom: "document1"
+    description: "C'est un très beau document !"
+    type: typeDoc1
+
+Document(doc2):
+    nom: "document2"
+    description: "C'est un très beau document aussi mais avec une description plus longue !"
+    type: typeDoc1
